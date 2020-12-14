@@ -27,8 +27,6 @@ generate.addEventListener("click", function() {
   var symbolsChecked = symbolsEl.checked;
   //Prints text to result screen
   passwordEl.innerText = generatePassword(length, lowerChecked, upperChecked, numbersChecked, symbolsChecked);
-  
-  
 });
 
   // This function adds the results of the character generation functions
@@ -51,9 +49,7 @@ function generatePassword(length, lowerChar, upperChar, numberChar, specialChar)
   //returns the final password
   var finalPassword = generatedPassword;
   return finalPassword;
-  
   }
-
 
   //Character generation functions (uses html char codes)
 
