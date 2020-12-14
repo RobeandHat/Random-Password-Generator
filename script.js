@@ -37,7 +37,7 @@ function generatePassword(length, lowerChar, upperChar, numberChar, specialChar)
   //If no choices are made
   if(typesof === 0) {
     alert("Please select character options!")
-    return
+    return finalPassword = "";
   }
   // Loops for each selected type
   for (var i = 0; i < length; i+=typesof) {
